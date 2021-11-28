@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aysick</title>
+    <link rel="stylesheet" href="public/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css" />
+    <script src="src/scripts.js"></script>
+    <script src="src/pagos.js"></script>
+</head>
+<body>
+<header class="full-width NavBarP">
+	<div class="full-width NavBarP-Logo">Aysick
+        <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+            <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=303487"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a><br><a href='http://www.websmultimedia.com/diseno-web/sevilla'></a></center>
+    </div>
+	<nav class="full-width NavBarP-Nav">
+		<ul class="full-width list-unstyled">
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes.html">Quienes somos</a></li>
+          <li><a href="mision.html">mision</a></li>
+          <li><a href="vision.html">vision</a></li>
+          <li><a href="contacto.html">Contactos</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div class="info-space">
+    <div class="in-duc">
+        <img src="public/img/vulnerable-person.jpg" alt="">
+        <div class="card">
+            <font >
+                <h1>Alerta al mundo</h1>
+                <div>
+                    <h2>Este es un momento sin precedentes, un momento en el que, debido a la propagación global del COVID-19, se han tomado medidas tales como control de movimiento o incluso bloqueos totales para contener el virus y la gente de todo el mundo está preocupada por un futuro incierto.
+
+                        Es precisamente por ello que ahora puedes abrir proyectos de crowdfunding para proporcionar ayuda contra el COVID-19 para que tú, como parte de una comunidad, puedas brindar soporte a personas que están preocupadas o aisladas debido a su salud o situación financiera.</h2>
+                    </div>
+                <div>
+                    <a href="" style="color: white;">¿Que es el programa de ayuda Covid-19?</a>
+                </div>
+            </font>
+        </div>
+    </div>
+</div>
+<main class="frase">
+<div class="fra-pto">
+    <div class="contenedor">
+        <img src="public/img/joshua-clay-VNjNtdu0yCw-unsplash.jpg" alt="">
+        <div class="card">
+            <font size="6">
+                <h1>"No hay mayor religion que la ayuda humanitaria. Trabajar
+                    por el bien comun es el mayor credo."</h1>
+                    <div>
+                        <h6>Albert Schweitzer</h6>
+                    </div>
+                </div>
+            </font>
+        </div>
+</div>
+</main>
+<section class="metodos">
+    <h2>Captacion de donantes.</h2>
+    <p>Crea formularios y campañas de recaudacion con los colores y el
+        logo de tu organizacion.
+    </p>
+    <div class="card-buttom" >
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMVJREFUSEvtleERAUEMRt9VgArowKgAneiMUpRAB3SgAybmzqy93CZ27WDG/dxLvpfNl7s0VH6ayvpogBWwBWYJ+AFYAxerQA1wAqZWIuCCaIBrKz7Uvu69hJmQEsARmFuQEsAE2FuQEoDkji2IBxB7EnoQz4J4sggPcwDSlmViyp40PQDHxN5D1On7CkCq51J5V2T2DaoD/h70OvDKh/UWk3/PA9lSI2/ZUdw53oRDK3Pn3Gqhvohv2r/r4/wjSz+zO3raDTzEPRmj6DYvAAAAAElFTkSuQmCC"/>
+        <i class='bx bx-file'><a href="https://workspace.google.com/signup/businessstarter/welcome?hl=es-419">formularios online</a></i>
+    </div>
+<br>
+
+</section>
+<br>
+
+<div class="page-nav">
+    <h1>Mi tienda</h1>
+    <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+</div>
+<div class="page-content">
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-1.png" />
+        <h1>$50</h1>
+        <button class="button-add" onclick="add('product-1', 50)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-2.png" />
+        <h1>$30</h1>
+        <button class="button-add" onclick="add('product-2', 30)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-3.png" />
+        <h1>$50</h1>
+        <button class="button-add" onclick="add('product-3', 50)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-4.png" />
+        <h1>$50</h1>
+        <button class="button-add" onclick="add('product-4', 50)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-5.png" />
+        <h1>$60</h1>
+        <button class="button-add" onclick="add('product-5', 60)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/item-7.png" />
+        <h1>$40</h1>
+        <button class="button-add" onclick="add('product-6', 40)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/banner.png" />
+        <h1>$50</h1>
+        <button class="button-add" onclick="add('product-7', 50)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/12.jpg" />
+        <h1>$90</h1>
+        <button class="button-add" onclick="add('product-8', 90)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/13.jpg" />
+        <h1>$80</h1>
+        <button class="button-add" onclick="add('product-9', 80)">Agregar</button>
+    </div>
+
+    <div class="product-container">
+        <h3>nombre</h3>
+        <img src="public/img/14.jpg" />
+        <h1>$70</h1>
+        <button class="button-add" onclick="add('product-10', 70)">Agregar</button>
+    </div>
+</div>
+
+
+       
+</body>
+</html>

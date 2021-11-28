@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "express": "^4.17.1",
+    "sweetalert2": "^11.2.1"
+  },
+  "name": "aysick",
+  "version": "1.0.0",
+  "description": "Aysick es una empresa de emprendimiento online y que vende su marca de ropa y asi financiar las remasterizaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyrojasgon/aysick.git"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": "jimmy rojas",
+  "license": "SEE LICENSE IN private",
+  "bugs": {
+    "url": "https://github.com/jimmyrojasgon/aysick/issues"
+  },
+  "homepage": "https://github.com/jimmyrojasgon/aysick#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

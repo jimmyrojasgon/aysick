@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+h1{
+    font-family: 'Bonheur Royale', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+}
+
+.NavBarP,
+.NavBarP-Logo,
+.NavBarP-Nav,
+.NavBarP-Nav > ul,
+.NavBarP-Nav > ul > li,
+.NavBarP-Nav > ul > li > a{
+	height: 90px;
+	line-height: 50px;
+}
+.NavBarP{
+	background-color: #fffdfd;
+	color: rgb(0, 0, 0);
+	position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+	font-family: 'RobotoCondensedLight';
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.NavBarP-Logo,
+.NavBarP-Nav{
+    position: fixed;
+    top: 0;
+	background-color: #f8dbdb;
+}
+.NavBarP-Logo{
+	left: 0;
+	width: 30%;
+	font-family: 'OswaldRegular';
+}
+.NavBarP-Nav{
+	right: 0;
+	width: 70%;
+}
+.NavBarP-Nav > ul{
+	text-align: right;
+	padding-right: 10px;
+}
+.NavBarP-Nav > ul > li{
+	display: inline-block;
+	position: relative;
+}
+.NavBarP-Nav > ul > li > a{
+	color: rgb(0, 0, 0);
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	padding: 0 7px;
+	transition: all .3s ease-in-out;
+}
+.NavBarP-Nav > ul > li > a:hover{
+	color: #FAE76F;
+}
+
+/*pag inicio*/
+
+main{
+    background: #e5e7eb;
+    width: 100%;
+    height: 500px;
+    padding-top: 7%;
+}
+
+.contenedor{
+    width: 1300px;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+}
+
+.card{
+    float: right;
+    width: 600px;
+    
+}
+
+section{
+    background-color: whitesmoke;
+    margin: auto;
+
+}
+
+.info-space{
+	background-color: #aca5a5;
+	width: 100%;
+	height: 550px;
+	padding-top: 10px;
+}
+
+.in-duc{
+	width: 1400px;
+	height: 500px;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+	margin-top: 5%;
+}
+
+
+.metodos{
+    background-color: rgb(248, 248, 248);
+    width: auto;
+    margin: 0px 191px;
+    padding: 0px 16px;
+}
+
+
+/* pag quienes somos*/
+
+.recarnacion{
+	background: url('../img/quiens.jpg');
+	margin-top: 30px;
+	padding: 400px;
+	padding-top: 80px;
+	height: 900px;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
+
+.hoja{
+	background-color: azure;
+	width: 1265px;
+	height: 155px;
+}
+.video-contenido{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 30px;
+	height: auto;
+}
+
+/* pag de mision*/
+
+.mision{
+	background: url('../img/mision.jpg');
+	width: 1909px;
+	height: 900px;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	margin-top: 90px;
+}
+
+.mi{
+	background-color: rgba(255, 255, 255, 0.287);
+	width: 1200px;
+	height: 500px;
+	margin-left: 300px;	
+	padding: 2%;
+}
+
+/* pag de mision*/
+
+.vision{
+	background: url('../img/saturno.jpg');
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	margin-top: 90px;
+}
+
+.vi{
+	background-color: rgba(255, 255, 255, 0.356);
+	width: 1200px;
+	height: 500px;
+	margin-left: 300px;
+	padding: 2%;
+}
