@@ -124,36 +124,31 @@ section{
 /* pag quienes somos*/
 
 .recarnacion{
-	background: url('../img/quiens.jpg');
 	margin-top: 30px;
 	padding: 400px;
 	padding-top: 80px;
-	height: 900px;
-	background-repeat: no-repeat;
+	height: 100%;
+    background: url('../img/quiens.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
-	
 }
 
 .hoja{
-	background-color: azure;
-	width: 1265px;
-	height: 155px;
+	width: 900px;
+	height: 300px;
+    
 }
 .video-contenido{
-	margin-left: 20%;
-	margin-right: 20%;
-	padding: 30px;
-	height: auto;
+	width: 900px;
 }
 
 /* pag de mision*/
 
 .mision{
-	background: url('../img/mision.jpg');
-	width: 1909px;
-	height: 900px;
+	width: 1000px;
+	height: 500px;
 	background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
@@ -162,30 +157,106 @@ section{
 }
 
 .mi{
-	background-color: rgba(255, 255, 255, 0.287);
 	width: 1200px;
 	height: 500px;
 	margin-left: 300px;	
 	padding: 2%;
 }
 
-/* pag de mision*/
+.twp-container{
+
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
+	font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+	--text-opacity: 1;
+	color: rgba(11,19,37,var(--text-opacity));
+	line-height: 1.2;
+
+    width: 100%;
+    max-width: 640px;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+/* pag de vision*/
 
 .vision{
 	background: url('../img/saturno.jpg');
 	width: 100%;
-	height: 900px;
-	background-repeat: no-repeat;
+	height: 600px;
+	margin-top: 90px;
+    background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
-	margin-top: 90px;
 }
 
 .vi{
-	background-color: rgba(255, 255, 255, 0.356);
 	width: 1200px;
 	height: 500px;
 	margin-left: 300px;
 	padding: 2%;
+	
+}
+.twp-container twp-mb-20{
+	-webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+    --text-opacity: 1;
+    color: rgba(11,19,37,var(--text-opacity));
+    line-height: 1.2;
+    width: 100%;
+    max-width: 1024px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 5rem;
+    height: auto;
+}
+
+.twp-text-3xl{
+	-webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    --text-opacity: 1;
+    font-family: inherit;
+    color: inherit;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 1.375;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.col-1{
+    width: 45%;
+    float: left;
+
+}
+.col-2{
+    width: 45%;
+    float: right;
+
 }

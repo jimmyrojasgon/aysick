@@ -2,6 +2,7 @@
   "dependencies": {
     "chalk": "^5.0.0",
     "express": "^4.17.1",
+    "sweetalert": "^2.1.2",
     "sweetalert2": "^11.2.1"
   },
   "name": "aysick",

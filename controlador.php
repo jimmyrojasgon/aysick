@@ -1,13 +1,15 @@
 <?php
 $usuario = isset($_POST['usuario']) ? $_POST['usuario'] : '';
 $pass = isset($_POST['pass']) ? $_POST['pass'] :'';
-$data = json_decode(file_get_contents('db/data.json'));
+$data = file_get_contents('./data.json');
+$json = json_decode($data, true);
 if($data->usuario == $usuario){
     if($data->pass == $pass){
-        echo json_decode('true');
+        echo json_encode('true');
     }else{
-        echo json_decode('la contraseña no es valida');
+        echo json_encode('la contraseña no es valida');
     }
 } else{
-    echo json_decode('el usuario no existe');
+    echo json_encode('el usuario no existe');
 }
+?>
